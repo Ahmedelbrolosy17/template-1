@@ -29,7 +29,8 @@ ul {
 .intro {
     padding: 10px 20px;
     border: 2px solid black;
-    width: fit-content;
+    width: -moz-fit-content;
+  width: fit-content;
     margin: calc(var(--sectoin-padding)/2) auto;
     font-size: 28px;
     text-transform: uppercase;
@@ -538,7 +539,8 @@ overflow: hidden;
     font-size: 40px;
     text-transform: capitalize;
     position: relative;
-    width: fit-content;
+    width: -moz-fit-content;
+  width: fit-content;
 }
 .features .container .text h3::after{
     content: '';
@@ -569,7 +571,8 @@ overflow: hidden;
     font-size: 22px;
     font-weight: bold;
     text-transform: capitalize;
-    width: fit-content;
+    width: -moz-fit-content;
+  width: fit-content;
     margin: 40px auto 20px;
     padding: 10px 25px;
     border-radius: 10px;
@@ -989,7 +992,8 @@ overflow: hidden;
     margin: 0 10px;
     border: 1px solid silver;
     border-radius: 5px;
-    width: fit-content;
+    width: -moz-fit-content;
+  width: fit-content;
     text-align: center;
 }
 .events .time-left div:hover {
@@ -1082,7 +1086,8 @@ overflow: hidden;
     color: white;
     font-weight: bold;
     text-transform: capitalize;
-    width: fit-content;
+    width: -moz-fit-content;
+  width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1209,7 +1214,8 @@ overflow: hidden;
     padding: 15px;
     display: block;
     border: 2px solid var(--theme-color);
-    width: fit-content;
+    width: -moz-fit-content;
+  width: fit-content;
     margin: 0 auto 20px;
     border-radius: 10px;
     cursor: pointer;
